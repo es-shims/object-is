@@ -1,6 +1,6 @@
 {
 	"name": "object-is",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "ES6-compliant shim for Object.is - differentiates between -0 and +0",
 	"author": "Jordan Harband",
 	"license": "MIT",
