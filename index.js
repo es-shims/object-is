@@ -3,7 +3,7 @@
 /* https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.is */
 
 var NumberIsNaN = function (value) {
-	return typeof value === 'number' && isNaN(value);
+	return value !== value;
 };
 
 module.exports = function is(a, b) {
