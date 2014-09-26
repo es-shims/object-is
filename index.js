@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.is */
 
