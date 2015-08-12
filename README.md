@@ -45,7 +45,7 @@ assert.ok(Object.is(-Infinity, -Infinity));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/object-is
-[2]: http://vb.teelaun.ch/ljharb/object-is.svg
+[2]: http://versionbadg.es/ljharb/object-is.svg
 [3]: https://travis-ci.org/ljharb/object-is.svg
 [4]: https://travis-ci.org/ljharb/object-is
 [5]: https://david-dm.org/ljharb/object-is.svg
