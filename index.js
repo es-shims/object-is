@@ -2,7 +2,7 @@
 
 /* https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.is */
 
-var NumberIsNaN = function (value) {
+var numberIsNaN = function (value) {
 	return value !== value;
 };
 
@@ -11,7 +11,7 @@ module.exports = function is(a, b) {
 		return 1 / a === 1 / b;
 	} else if (a === b) {
 		return true;
-	} else if (NumberIsNaN(a) && NumberIsNaN(b)) {
+	} else if (numberIsNaN(a) && numberIsNaN(b)) {
 		return true;
 	}
 	return false;
