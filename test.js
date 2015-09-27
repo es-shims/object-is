@@ -2,6 +2,7 @@
 
 var test = require('tape');
 var is = require('./');
+var hasSymbols = typeof Symbol === 'function' && typeof Symbol() === 'symbol';
 
 test('works with primitives', function (t) {
 	t.ok(is(), 'two absent args are the same');
@@ -48,3 +49,9 @@ test('objects', function (t) {
 	t.end();
 });
 
+test('Symbols', { skip: !hasSymbols }, function (t) {
+	t.ok(is(Symbol.iterator, Symbol.iterator), 'Symbol.iterator is itself');
+	t.notOk(is(Symbol(), Symbol()), 'different Symbols are not equal');
+	t.notOk(is(Symbol.iterator, Object(Symbol.iterator)), 'Symbol.iterator is not boxed form of itself');
+	t.end();
+});
