@@ -6,7 +6,7 @@ var numberIsNaN = function (value) {
 	return value !== value;
 };
 
-module.exports = function is(a, b) {
+module.exports = Object.is || function is(a, b) {
 	if (a === 0 && b === 0) {
 		return 1 / a === 1 / b;
 	} else if (a === b) {
@@ -16,4 +16,3 @@ module.exports = function is(a, b) {
 	}
 	return false;
 };
-
