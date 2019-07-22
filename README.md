@@ -45,15 +45,15 @@ assert.ok(Object.is(-Infinity, -Infinity));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/object-is
-[2]: http://versionbadg.es/ljharb/object-is.svg
-[3]: https://travis-ci.org/ljharb/object-is.svg
-[4]: https://travis-ci.org/ljharb/object-is
-[5]: https://david-dm.org/ljharb/object-is.svg
-[6]: https://david-dm.org/ljharb/object-is
-[7]: https://david-dm.org/ljharb/object-is/dev-status.svg
-[8]: https://david-dm.org/ljharb/object-is#info=devDependencies
-[9]: https://ci.testling.com/ljharb/object-is.png
-[10]: https://ci.testling.com/ljharb/object-is
+[2]: http://versionbadg.es/es-shims/object-is.svg
+[3]: https://travis-ci.org/es-shims/object-is.svg
+[4]: https://travis-ci.org/es-shims/object-is
+[5]: https://david-dm.org/es-shims/object-is.svg
+[6]: https://david-dm.org/es-shims/object-is
+[7]: https://david-dm.org/es-shims/object-is/dev-status.svg
+[8]: https://david-dm.org/es-shims/object-is#info=devDependencies
+[9]: https://ci.testling.com/es-shims/object-is.png
+[10]: https://ci.testling.com/es-shims/object-is
 [11]: https://nodei.co/npm/object-is.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/object-is.svg
 [license-url]: LICENSE

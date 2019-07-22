@@ -16,12 +16,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/object-is.git"
+		"url": "git://github.com/es-shims/object-is.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ljharb/object-is/issues"
+		"url": "https://github.com/es-shims/object-is/issues"
 	},
-	"homepage": "https://github.com/ljharb/object-is",
+	"homepage": "https://github.com/es-shims/object-is",
 	"keywords": [
 		"is",
 		"Object.is",
