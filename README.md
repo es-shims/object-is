@@ -8,8 +8,6 @@
 
 [![npm badge][11]][1]
 
-[![browser support][9]][10]
-
 ES6-compliant shim for Object.is - differentiates between -0 and +0, and can compare to NaN.
 
 Essentially, Object.is returns the same value as === - but true for NaN, and false for -0 and +0.
@@ -52,8 +50,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 [6]: https://david-dm.org/es-shims/object-is
 [7]: https://david-dm.org/es-shims/object-is/dev-status.svg
 [8]: https://david-dm.org/es-shims/object-is#info=devDependencies
-[9]: https://ci.testling.com/es-shims/object-is.png
-[10]: https://ci.testling.com/es-shims/object-is
 [11]: https://nodei.co/npm/object-is.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/object-is.svg
 [license-url]: LICENSE

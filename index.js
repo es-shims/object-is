@@ -1,6 +1,6 @@
 'use strict';
 
-/* https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.is */
+// http://www.ecma-international.org/ecma-262/6.0/#sec-object.is
 
 var numberIsNaN = function (value) {
 	return value !== value;
