@@ -6,6 +6,8 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
@@ -33,6 +35,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^13.1.1",
+		"auto-changelog": "^1.14.1",
 		"covert": "^1.1.1",
 		"eslint": "^5.16.0",
 		"has-symbols": "^1.0.0",
@@ -59,5 +62,11 @@
 	},
 	"engines": {
 		"node": ">= 0.4"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false
 	}
 }
