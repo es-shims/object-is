@@ -35,6 +35,7 @@
 		"@ljharb/eslint-config": "^13.1.1",
 		"covert": "^1.1.1",
 		"eslint": "^5.16.0",
+		"has-symbols": "^1.0.0",
 		"tape": "^4.11.0"
 	},
 	"testling": {

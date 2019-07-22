@@ -1,8 +1,9 @@
 'use strict';
 
 var test = require('tape');
+var hasSymbols = require('has-symbols')();
+
 var is = require('../');
-var hasSymbols = typeof Symbol === 'function' && typeof Symbol() === 'symbol';
 
 test('works with primitives', function (t) {
 	t.ok(is(), 'two absent args are the same');
