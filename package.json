@@ -34,10 +34,10 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
+		"@ljharb/eslint-config": "^14.1.0",
 		"auto-changelog": "^1.16.1",
 		"covert": "^1.1.1",
-		"eslint": "^5.16.0",
+		"eslint": "^6.3.0",
 		"has-symbols": "^1.0.0",
 		"tape": "^4.11.0"
 	},
