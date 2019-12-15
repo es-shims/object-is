@@ -37,11 +37,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^14.1.0",
+		"@ljharb/eslint-config": "^15.0.2",
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.1",
-		"eslint": "^6.3.0",
-		"has-symbols": "^1.0.0",
+		"eslint": "^6.7.2",
+		"has-symbols": "^1.0.1",
 		"tape": "^4.11.0"
 	},
 	"testling": {
