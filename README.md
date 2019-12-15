@@ -8,7 +8,7 @@
 
 [![npm badge][11]][1]
 
-ES6-compliant shim for Object.is - differentiates between -0 and +0, and can compare to NaN.
+ES2015-compliant shim for Object.is - differentiates between -0 and +0, and can compare to NaN.
 
 Essentially, Object.is returns the same value as === - but true for NaN, and false for -0 and +0.
 
