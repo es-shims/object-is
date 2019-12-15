@@ -35,7 +35,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^14.1.0",
-		"auto-changelog": "^1.16.1",
+		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.1",
 		"eslint": "^6.3.0",
 		"has-symbols": "^1.0.0",
@@ -65,9 +65,9 @@
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
 		"unreleased": false,
 		"commitLimit": false,
-		"backfillLimit": false,
-		"template": "keepachangelog"
+		"backfillLimit": false
 	}
 }
