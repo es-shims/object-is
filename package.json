@@ -7,10 +7,13 @@
 		"url": "https://github.com/sponsors/ljharb"
 	},
 	"license": "MIT",
-	"main": "index.js",
+	"main": "index.cjs",
+	"module": "index.js",
 	"scripts": {
-		"prepublish": "safe-publish-latest",
+		"build": "babel index.js --out-file index.cjs",
+		"prepublish": "safe-publish-latest && npm run build",
 		"pretest": "npm run lint",
+		"pretests-only": "npm run build",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
 		"posttest": "npx aud",
@@ -39,8 +42,12 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.4",
+		"@babel/plugin-transform-modules-commonjs": "^7.8.3",
 		"@ljharb/eslint-config": "^16.0.0",
 		"auto-changelog": "^1.16.2",
+		"babel-plugin-add-module-exports": "^1.0.2",
 		"covert": "^1.1.1",
 		"eslint": "^6.8.0",
 		"has-symbols": "^1.0.1",
@@ -75,5 +82,16 @@
 		"unreleased": false,
 		"commitLimit": false,
 		"backfillLimit": false
+	},
+	"babel": {
+		"plugins": [
+			[
+				"@babel/plugin-transform-modules-commonjs",
+				{
+					"strict": true
+				}
+			],
+			"add-module-exports"
+		]
 	}
 }

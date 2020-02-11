@@ -1,5 +1,18 @@
 {
 	"root": true,
 
-	"extends": "@ljharb"
+	"extends": "@ljharb",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"overrides": [
+		{
+			"files": ["test/**/*.js"],
+			"parserOptions": {
+				"ecmaVersion": 5,
+				"sourceType": "script"
+			}
+		}
+	]
 }

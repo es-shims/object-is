@@ -1,12 +1,10 @@
-'use strict';
-
 // http://www.ecma-international.org/ecma-262/6.0/#sec-object.is
 
 var numberIsNaN = function (value) {
 	return value !== value;
 };
 
-module.exports = function is(a, b) {
+export default function is(a, b) {
 	if (a === 0 && b === 0) {
 		return 1 / a === 1 / b;
 	}
@@ -17,5 +15,5 @@ module.exports = function is(a, b) {
 		return true;
 	}
 	return false;
-};
+}
 
