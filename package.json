@@ -40,7 +40,8 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
-		"auto-changelog": "^1.16.3",
+		"aud": "^1.1.0",
+		"auto-changelog": "^2.0.0",
 		"covert": "^1.1.1",
 		"eslint": "^6.8.0",
 		"has-symbols": "^1.0.1",
