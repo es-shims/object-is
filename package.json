@@ -15,6 +15,7 @@
 		"test": "npm run tests-only",
 		"posttest": "npx aud --production",
 		"coverage": "covert test",
+		"prelint": "es-shim-api",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -35,10 +36,12 @@
 		"ES6",
 		"ES2015",
 		"shim",
-		"polyfill"
+		"polyfill",
+		"es-shim API"
 	],
 	"dependencies": {},
 	"devDependencies": {
+		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^16.0.0",
 		"aud": "^1.1.0",
 		"auto-changelog": "^2.0.0",
