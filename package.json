@@ -39,7 +39,9 @@
 		"polyfill",
 		"es-shim API"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"define-properties": "^1.1.3"
+	},
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^16.0.0",
