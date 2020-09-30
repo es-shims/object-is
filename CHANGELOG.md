@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/es-shims/object-is/compare/v1.1.2...v1.1.3) - 2020-09-30
+
+### Commits
+
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`6f1217f`](https://github.com/es-shims/object-is/commit/6f1217fc82cbe25d3911cad2d3298a8f3f51bd7f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog` [`68d8ab0`](https://github.com/es-shims/object-is/commit/68d8ab07275949aa78f20f0e6270c0a26aba2647)
+- [Deps] update `es-abstract` [`d665d57`](https://github.com/es-shims/object-is/commit/d665d570e416f039bbbc577f0c2c77104302d227)
+- [Deps] update `es-abstract` [`61b4d08`](https://github.com/es-shims/object-is/commit/61b4d0893212b08ec89ba8c388948fa4377f7a43)
+
 ## [v1.1.2](https://github.com/es-shims/object-is/compare/v1.1.1...v1.1.2) - 2020-04-14
 
 ### Commits
