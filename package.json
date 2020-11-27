@@ -44,10 +44,10 @@
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
-		"@ljharb/eslint-config": "^17.2.0",
-		"aud": "^1.1.2",
+		"@ljharb/eslint-config": "^17.3.0",
+		"aud": "^1.1.3",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.10.0",
+		"eslint": "^7.14.0",
 		"functions-have-names": "^1.2.1",
 		"has-symbols": "^1.0.1",
 		"nyc": "^10.3.2",
