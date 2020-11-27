@@ -16,6 +16,9 @@ results
 npm-debug.log
 node_modules
 
+coverage/
+.nyc_output/
+
 # Only apps should have lockfiles
 npm-shrinkwrap.json
 package-lock.json
