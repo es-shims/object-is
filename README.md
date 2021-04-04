@@ -29,11 +29,11 @@ assert.ok(Object.is('foo', 'foo'));
 
 var arr = [1, 2];
 assert.ok(Object.is(arr, arr));
-assert.notOk(Object.is(arr, [1, 2]));
+assert.equal(Object.is(arr, [1, 2]), false);
 
 assert.ok(Object.is(0, 0));
 assert.ok(Object.is(-0, -0));
-assert.notOk(Object.is(0, -0));
+assert.equal(Object.is(0, -0), false);
 
 assert.ok(Object.is(NaN, NaN));
 assert.ok(Object.is(Infinity, Infinity));
