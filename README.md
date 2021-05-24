@@ -1,5 +1,7 @@
-#object-is <sup>[![Version Badge][2]][1]</sup>
+# object-is <sup>[![Version Badge][2]][1]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -54,3 +56,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/object-is.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=object-is
+[codecov-image]: https://codecov.io/gh/es-shims/object-is/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/es-shims/object-is/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/object-is
+[actions-url]: https://github.com/es-shims/object-is/actions
