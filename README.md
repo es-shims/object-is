@@ -54,8 +54,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [11]: https://nodei.co/npm/object-is.png?downloads=true&stars=true
 [license-image]: https://img.shields.io/npm/l/object-is.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/object-is.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=object-is
+[downloads-image]: https://img.shields.io/npm/dm/object-is.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=object-is
 [codecov-image]: https://codecov.io/gh/es-shims/object-is/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/es-shims/object-is/
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/object-is
