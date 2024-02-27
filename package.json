@@ -41,7 +41,7 @@
 		"es-shim API"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.5",
+		"call-bind": "^1.0.7",
 		"define-properties": "^1.2.1"
 	},
 	"devDependencies": {
